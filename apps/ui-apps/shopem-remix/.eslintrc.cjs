@@ -9,6 +9,7 @@ module.exports = {
   root: true,
   parserOptions: {
     ecmaVersion: "latest",
+    tsconfigRootDir: "__dirname",
     sourceType: "module",
     ecmaFeatures: {
       jsx: true,
